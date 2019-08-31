@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
     isNew();
 
 
-    // ### f-cja zapisująca imię do localstorage i validująca formularz
+    // ### f-cja zapisująca imię do localstorage i validująca formularz //
     const saveName = function (e) {
         e.preventDefault();
         let name = "";
